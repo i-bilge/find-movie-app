@@ -11,14 +11,11 @@ import {
   signInWithPopup,
 } from "firebase/auth";
 
-const firebaseConfig = {
-    apiKey: "AIzaSyDy3EHRenyep4VhStKJPEW7P8D4KAqQuzU",
-    authDomain: "movie-app-auth-b7832.firebaseapp.com",
-    projectId: "movie-app-auth-b7832",
-    storageBucket: "movie-app-auth-b7832.appspot.com",
-    messagingSenderId: "616208418356",
-    appId: "1:616208418356:web:b186c4d12829711d7cac61"
-  };
+import { firebaseConfig } from "./ApiKey";
+// HERE I AM IMPORTING MY CONFIG INFOS FROM ANOTHER FILE. AND I AM NOT SHARING IT. YOU HAVE TO USE YOUR INFOS:
+// const firebaseConfig = {
+//    ...
+//   };
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);

@@ -2,8 +2,9 @@ import axios from "axios";
 import { useContext, useEffect, useState } from "react";
 import MovieCard from "../components/MovieCard";
 import { AuthContext } from "../context/AuthContext";
+import { API_KEY } from "../auth/ApiKey";
 
-const API_KEY = "5e5ba60b460ceadbd75b3baff60a87de";
+// const API_KEY = HERE I AM IMPORTING MY KEY FROM ANOTHER FILE. AND I AM NOT SHARING IT. <OU HAVE TO USE YOUR KEY.
 // const API_KEY = process.env.REACT_APP_TMDB_KEY;
 const FEATURED_API = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}`;
 const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=`;
