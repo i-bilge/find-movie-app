@@ -41,14 +41,14 @@ $ npm install
 
 
 # Create a Firebase project and register your app
-$ [link to firebase](https://firebase.google.com/docs/samples?hl=en)
+[link to firebase](https://firebase.google.com/docs/samples?hl=en)
 
 # Install dependencies(I AM NOT SHARING MY OF CONFIG: YOU HAVE TO USE YOURS!)
 $ npm install firebase
 
 
 # Take api key from themoviedb.org
-$ [link to The Movie Date Base](https://developers.themoviedb.org/3/getting-started/authentication)
+[link to The Movie Date Base](https://developers.themoviedb.org/3/getting-started/authentication)
 
 # Run the app
 $ npm start
